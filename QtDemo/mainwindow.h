@@ -14,11 +14,15 @@ class MainWindow : public QMainWindow
 {
   Q_OBJECT
 
-  friend class GUITesting1;
+  friend class LineEditTest;
+  friend class ButtonTest;
 
 public:
   MainWindow(QWidget* parent = nullptr);
   ~MainWindow();
+
+private slots:
+  void on_pushButton_clicked();
 
 private:
   Ui::MainWindow* ui;
