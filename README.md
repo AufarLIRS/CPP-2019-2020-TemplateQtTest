@@ -8,5 +8,6 @@ Template repo with:
 # Features
 
 - 2 different testing frameworks used for Qt GUI project
-- GoogleTest tests have distinct files for different kinds of testing 
-- Class for QtTesting uses `init()` method to reset data between testing scenarios
+- GoogleTest has 2 test suits in distinct files
+- QtTesting has 2 test suits in united project; both suits are in subprojects
+- QtTesting uses `init()` method to reset data between testing scenarios
