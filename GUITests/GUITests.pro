@@ -18,7 +18,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
     ../QtDemo/int_funcs.cpp \
     ../QtDemo/mainwindow.cpp \
-    tst_guitesting1.cpp
+    tst_guitesting1.cpp \
+    tst_guitesting2.cpp
 
 HEADERS += \
     ../QtDemo/int_funcs.h \
