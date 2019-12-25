@@ -15,7 +15,7 @@ SOURCES += \
 
 win32:CONFIG(release, debug|release): LIBS += -L$$PWD/include/gtest/lib/ -lgtest
 else:win32:CONFIG(debug, debug|release): LIBS += -L$$PWD/include/gtest/lib/ -lgtestd
-else:unix: LIBS += -L$$PWD/include/gtest/lib/ -lgtest
+else:unix: LIBS += -lgtest
 
-INCLUDEPATH += $$PWD/include
-DEPENDPATH += $$PWD/include
+win32:INCLUDEPATH += $$PWD/include
+win32:DEPENDPATH += $$PWD/include
