@@ -9,4 +9,4 @@ Template repo with:
 
 - 2 different testing frameworks used for Qt GUI project
 - GoogleTest tests have distinct files for different kinds of testing 
-- Class for QtTesting uses `init()` method
+- Class for QtTesting uses `init()` method to reset data between testing scenarios
